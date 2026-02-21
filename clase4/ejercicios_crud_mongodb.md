@@ -38,14 +38,11 @@ db.videojuegos.insertMany([
   {
     "titulo": "Sky Adventure",
     "plataforma": ["Xbox", "PC"],
-    "lanzamiento": 2022,
-    "multijugador": false
-  },
+    "lanzamiento": 2022
+   },
   {
     "titulo": "Battle Arena",
-    "plataforma": ["PC"],
-    "lanzamiento": 2019,
-    "multijugador": true
+    "plataforma": ["PC"]
   }
 ]);
 ```
